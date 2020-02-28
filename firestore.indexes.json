@@ -1,0 +1,19 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "devices",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "hello",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "hello2",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
