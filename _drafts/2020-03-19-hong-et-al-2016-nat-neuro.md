@@ -25,12 +25,13 @@ information is lost or preserved along the visual stream.
 
 
 Previous research have shown that robust representations of objects are built along
-the ventral visual stream to support visual object categorization. However, visual perception
-does not only concern itself with categorization. In fact, humans are also estimate
-other object-related properties. According to this paper, many of these properties such as
-object position, size, aspect ratio, orientation, are often considered to be 'nuisance'
-variables that are thrown out along the visual stream to achieve invariant object recognition.
-
+the ventral visual stream to support visual object categorization. However, it cannot
+be the case that visual perception only concerns itself with categorization as humans
+are able to estimate other object-related properties such as object position, size,
+aspect ratio and orientation. While these category-orthogonal properties are often
+considered to be 'nuisance' variables that are thrown away along the ventral visual
+stream, our ability to relatively precisely estimate those properties show that some
+of these information is preserved. Then the question becomes how the ar
 
 
 
