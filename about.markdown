@@ -14,4 +14,6 @@ Before that I was a Columbia SURF fellow at [LIINC](liinc.bme.columbia.edu) with
 You can find what I currently find interesting by reading my blog posts or visiting my GitHub:
 [hectorcho][hectorcho-github]
 
+**Email: [first].[last]@columbia.edu**
+
 [hectorcho-github]: https://github.com/hectorcho
