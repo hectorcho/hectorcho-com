@@ -102,13 +102,53 @@ performing than V1 models (**Fig. 3b** grey) and pixel controls (**Fig. 3b** bla
 
 #### Neural consistency with human performance patterns
 To bring human performance patterns into the picture, the manuscript estimated, across neural population
-and tasks, the number of neural sites required to reach parity with human performance levels.
+and tasks, the number of neural sites required to reach parity with human performance levels. For all
+tasks, IT population reached human performance parity with at most 2000 sites, with a mean of about a third
+of those sites. V4 population needed several orders of magnitute more sites and V1 population needed several
+orders of magnitude more than V4 population -- so much so that V1 reaching human performance parity
+is essentially intractable. 
 
 
+#### Distribution of Information across IT sites
+Next, the authors characterized whether category-orthogonal properties are estimated by dedicated subpopulations
+in the IT or are jointly distributed over IT neurons in an overlapping manner. Previous studies showing
+modularity of face, body and place selective neurons suggest the former hypothesis while studies that demonstrate
+IT units tuned to multiple visual properties suggest the former.
 
+
+To test these hypotheses, the paper took a two step approach:
+1. Quantify distribution of information across sites for each task
+2. Quantify information overlap between pairs of tasks
+
+
+Two metrics, sparseness and imbalance, were used for the first step.
+* ***Sparseness*** measures the distribution of task-response correlation
+* ***Imbalance*** measures relative dominance of task-response correlated vs anticorrelated sites
+
+Positive weights of the linear decoder for each of 266 IT sites was defined to be task-response
+correlation while negative weights was defined to be a task-response anticorrelation. **Fig. 6a** show
+that the distribution of task-response correlated units were sparse (At P=0.5 level, nearly half
+of the tasks had sparseness indistinguishable from the standard normal distribution). Not only was the
+information sparsely distributed across sites for most tasks, imbalance metric were also similar to
+an equivalently sized standard normal distribution at the P=0.5 level (**Fig. 6b**). These results
+suggest that other from few tasks that require relatively selective units, information for most
+category-orthogonal tasks was normally distributed.
+
+
+{% figure caption: "**Figure 6**: Distribution and overlap of IT cortex site contribution across tasks"%}
+![figure-6](https://i.imgur.com/byrmlPd.png)
+{% endfigure %}
+
+### Questions
+1. **Fig. 6c** show that face discrimination task required neither high-sparseness nor high-imbalance.
+[Studies][tsao-pnas-2008-face-patch] conjecture and prove the existence of face patches in IT cortex.
+If face patches were real, shouldn't the face discrimination task require a high level of sparseness
+as only a few sites should be highly informative for the task? I can accept the low measure of imbalance
+but very low measure of sparseness seems contradictory to previous studies.
 
 
 [hong-natneuro-2016]:https://www.nature.com/articles/nn.4247
 [yamins-pnas-2014]:https://www.pnas.org/content/111/23/8619
 [kell-neuron-2018]:https://www.sciencedirect.com/science/article/pii/S0896627318302502?via%3Dihub
 [brainscore]:www.brain-score.org
+[tsao-pnas-2008-face-patch]:https://www.pnas.org/content/105/49/19514
